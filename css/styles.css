@@ -1,6 +1,7 @@
  body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
+    color:#434455;
 }
 
 ul {
@@ -17,7 +18,7 @@ address {
 /* header */
 
 .header-nav > a, .bottom-section a {
-    font-family: "Releway";
+    font-family: "Releway", sans-serif;
     color: #4D5AE5;
     font-weight: 700;
     font-size: 18px;
@@ -38,6 +39,11 @@ address {
                 letter-spacing: 0.02em;          
     }
 
+        .main-page:hover, .main-page:focus {
+            color: #404bbf;
+
+        }
+
     .info a {
         color: #434455;
         font-weight: 400;
@@ -47,7 +53,13 @@ address {
             list-style: normal;
        
     }
-    
+
+  
+    .info .email:hover, .info .email:focus {
+        color: #404bbf;
+    }
+
+
     /* Main */
  .title {
     background-color: #2E2F42;
@@ -71,9 +83,10 @@ address {
         cursor: pointer;
      }
 
-        .about {
-            display: none;
-        }
+     .title .title-but:hover, .title .title-but:focus {
+        background-color: #404BBF;
+     }
+      
 
      .description h3 {
         font-weight: 500;
@@ -91,7 +104,13 @@ address {
             color: #434455;
      }
 
+.team {
+    background-color: #F4F4FD;
+}
 
+.ourteam-list {
+    background-color: #FFFFFF;
+}
      .team h2 {
         font-weight: 600;
             font-size: 36px;
@@ -100,6 +119,10 @@ address {
             text-transform: capitalize;
             text-align: center;
             color: #2E2F42;
+     }
+
+     .ProductDesigner {
+        font-size: 16px;
      }
 
      .team h3 {
@@ -129,6 +152,9 @@ address {
             color: #2E2F42;
      }
 
+         item-portfolio {
+            text-transform: capitalize;
+         }
      .portfolio-list h3 {
         font-weight: 500;
             font-size: 20px;
