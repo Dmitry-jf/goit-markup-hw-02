@@ -150,9 +150,10 @@ address {
             letter-spacing: 0.02em;
             text-align: center;
             color: #2E2F42;
+            text-transform: capitalize;
      }
 
-         item-portfolio {
+         .item-portfolio {
             text-transform: capitalize;
          }
      .portfolio-list h3 {
@@ -183,6 +184,6 @@ address {
          }
 
             
-                 .label .second-part-bottom {
+                 .bottom-section .second-part-bottom {
                      color: #F4F4FD;    
                        }
