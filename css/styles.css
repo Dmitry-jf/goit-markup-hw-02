@@ -1,8 +1,6 @@
  body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
-    color: #434455;
+    font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
-    font-size: 16px;
 }
 
 ul {
@@ -13,9 +11,12 @@ a {
     text-decoration: none;
 }
 
+address {
+    font-style: normal;
+}
 /* header */
 
-.label .first-part, .second-part {
+.header-nav > a, .bottom-section a {
     font-family: "Releway";
     color: #4D5AE5;
     font-weight: 700;
@@ -25,7 +26,7 @@ a {
     text-transform: uppercase;
 }
 
- .label .second-part { 
+.header-nav .second-part {
     color: #2E2F42;
     }
 
@@ -34,8 +35,7 @@ a {
         font-weight: 500;
                 font-size: 16px;
                 line-height: 150%;
-                letter-spacing: 0.02em;
-           
+                letter-spacing: 0.02em;          
     }
 
     .info a {
@@ -44,6 +44,7 @@ a {
         font-size: 16px;
             line-height: 150%;
             letter-spacing: 0.02em;
+            list-style: normal;
        
     }
     
@@ -67,7 +68,12 @@ a {
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.04em;
+        cursor: pointer;
      }
+
+        .about {
+            display: none;
+        }
 
      .description h3 {
         font-weight: 500;
@@ -82,6 +88,7 @@ a {
             font-size: 16px;
             line-height: 150%;
             letter-spacing: 0.02em;
+            color: #434455;
      }
 
 
@@ -149,6 +156,7 @@ a {
                 color: #F4F4FD;
          }
 
-                 .label .second-part {
+            
+                 .label .second-part-bottom {
                      color: #F4F4FD;    
                        }
